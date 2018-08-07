@@ -1,0 +1,26 @@
+{
+  "name": "@vkijensky/semantic-release-test",
+  "version": "0.0.1",
+  "description": "Semantic Release Test",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkijensky/semantic-release-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vkijensky/semantic-release-test/issues"
+  },
+  "homepage": "https://github.com/vkijensky/semantic-release-test/issues",
+  "author": "Vojtěch Kijenský <kijensky@gmail.com>",
+  "license": "Proprietary",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "semantic-release": "^15.9.3",
+    "semantic-release-config": "https://github.com/vkijensky/semantic-release-config.git#semver:v0.x"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}

@@ -1,0 +1,11 @@
+/bin/*
+/vendor/
+/phpunit.xml
+/web/bundles
+!.gitkeep
+!/bin/console
+!/bin/symfony_requirements
+/ls - sel
+.vscode
+node_modules/
+.env
